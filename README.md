@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +42,7 @@
             background-color: #007bff;
             padding: 15px 25px;
             border-radius: 8px;
-            display: flex; /* Usamos flexbox para alinear el icono y el texto */
+            display: flex;
             align-items: center;
             justify-content: center;
             font-size: 18px;
@@ -55,7 +54,7 @@
         }
         /* Estilo para los iconos */
         .social-links a i {
-            margin-right: 10px; /* Separación entre el icono y el texto */
+            margin-right: 10px;
         }
 
         /* Colores específicos para redes sociales populares (opcional) */
@@ -63,8 +62,10 @@
         .x-twitter a { background-color: #1a1a1a; }
         .linkedin a { background-color: #0A66C2; }
         .github a { background-color: #333; }
-        .facebook a { background-color: #1877F2; }
         .youtube a { background-color: #FF0000; }
+        .spotify a { background-color: #1DB954; }
+        .soundcloud a { background-color: #FF5500; }
+        .facebook a { background-color: #1877F2; }
 
     </style>
 </head>
@@ -78,7 +79,10 @@
             <li class="linkedin"><a href="TU_ENLACE_LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
             <li class="github"><a href="TU_ENLACE_GITHUB" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
             <li class="youtube"><a href="TU_ENLACE_YOUTUBE" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
-            </ul>
+            <li class="spotify"><a href="TU_ENLACE_SPOTIFY" target="_blank"><i class="fab fa-spotify"></i> Spotify</a></li>
+            <li class="soundcloud"><a href="TU_ENLACE_SOUNDCLOUD" target="_blank"><i class="fab fa-soundcloud"></i> SoundCloud</a></li>
+            <li class="facebook"><a href="TU_ENLACE_FACEBOOK" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+        </ul>
     </div>
 
 </body>
